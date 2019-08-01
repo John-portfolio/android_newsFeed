@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for a single list item that displays a news item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/news_list_item_layout">
+
+    <TextView
+        android:id="@+id/from_date"
+        style="@style/list_text_view_small"/>
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/list_text_view_medium"/>
+
+    <TextView
+        android:id="@+id/byline"
+        style="@style/list_text_view_small"/>
+
+</LinearLayout>
